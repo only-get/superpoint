@@ -1,0 +1,178 @@
+[08/04/2023 16:28:12 INFO] Running command TRAIN
+[08/04/2023 16:28:12 INFO] Number of GPUs detected: 1
+[08/04/2023 16:28:13 INFO] Extracting archive for primitive draw_lines.
+[08/04/2023 16:28:14 INFO] Extracting archive for primitive draw_polygon.
+[08/04/2023 16:28:16 INFO] Extracting archive for primitive draw_multiple_polygons.
+[08/04/2023 16:28:17 INFO] Extracting archive for primitive draw_ellipses.
+[08/04/2023 16:28:19 INFO] Extracting archive for primitive draw_star.
+[08/04/2023 16:28:20 INFO] Extracting archive for primitive draw_checkerboard.
+[08/04/2023 16:28:21 INFO] Extracting archive for primitive draw_stripes.
+[08/04/2023 16:28:23 INFO] Extracting archive for primitive draw_cube.
+[08/04/2023 16:28:24 INFO] Extracting archive for primitive gaussian_noise.
+[08/04/2023 16:28:26 INFO] Caching data, fist access will take some time.
+[08/04/2023 16:28:26 INFO] Caching data, fist access will take some time.
+[08/04/2023 16:28:26 INFO] Caching data, fist access will take some time.
+2023-08-04 16:28:26.732410: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2023-08-04 16:28:26.806875: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-04 16:28:26.806949: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 3060 Ti major: 8 minor: 6 memoryClockRate(GHz): 1.83
+pciBusID: 0000:01:00.0
+totalMemory: 7.76GiB freeMemory: 7.13GiB
+2023-08-04 16:28:26.806957: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2023-08-04 16:28:27.161804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-08-04 16:28:27.161823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2023-08-04 16:28:27.161827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2023-08-04 16:28:27.161895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6859 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 3060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.6)
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:28:27 INFO] Scale of 0 disables regularizer.
+2023-08-04 16:28:28.009022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2023-08-04 16:28:28.009051: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-08-04 16:28:28.009054: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2023-08-04 16:28:28.009058: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2023-08-04 16:28:28.009090: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6859 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 3060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.6)
+[08/04/2023 16:28:29 INFO] Start training
+2023-08-04 16:28:31.870290: F tensorflow/core/common_runtime/bfc_allocator.cc:380] Check failed: h != kInvalidChunkHandle 
+[08/04/2023 16:37:22 INFO] Running command TRAIN
+[08/04/2023 16:37:22 INFO] Number of GPUs detected: 1
+[08/04/2023 16:37:23 INFO] Extracting archive for primitive draw_lines.
+[08/04/2023 16:37:25 INFO] Extracting archive for primitive draw_polygon.
+[08/04/2023 16:37:26 INFO] Extracting archive for primitive draw_multiple_polygons.
+[08/04/2023 16:37:28 INFO] Extracting archive for primitive draw_ellipses.
+[08/04/2023 16:37:29 INFO] Extracting archive for primitive draw_star.
+[08/04/2023 16:37:30 INFO] Extracting archive for primitive draw_checkerboard.
+[08/04/2023 16:37:32 INFO] Extracting archive for primitive draw_stripes.
+[08/04/2023 16:37:33 INFO] Extracting archive for primitive draw_cube.
+[08/04/2023 16:37:34 INFO] Extracting archive for primitive gaussian_noise.
+[08/04/2023 16:37:36 INFO] Caching data, fist access will take some time.
+[08/04/2023 16:37:37 INFO] Caching data, fist access will take some time.
+[08/04/2023 16:37:37 INFO] Caching data, fist access will take some time.
+2023-08-04 16:37:37.371330: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2023-08-04 16:37:37.451093: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-04 16:37:37.451185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 3060 Ti major: 8 minor: 6 memoryClockRate(GHz): 1.83
+pciBusID: 0000:01:00.0
+totalMemory: 7.76GiB freeMemory: 7.21GiB
+2023-08-04 16:37:37.451193: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2023-08-04 16:37:37.807878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-08-04 16:37:37.807897: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2023-08-04 16:37:37.807901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2023-08-04 16:37:37.807976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6936 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 3060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.6)
+[08/04/2023 16:37:37 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:37 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+[08/04/2023 16:37:38 INFO] Scale of 0 disables regularizer.
+2023-08-04 16:37:38.662905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2023-08-04 16:37:38.662933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-08-04 16:37:38.662937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2023-08-04 16:37:38.662939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2023-08-04 16:37:38.662979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6936 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 3060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.6)
+[08/04/2023 16:37:40 INFO] Start training
+[08/04/2023 16:38:06 INFO] Iter    0: loss 4.1820, precision 0.0006, recall 0.0522
+[08/04/2023 16:38:29 INFO] Iter  100: loss 4.1919, precision 0.0006, recall 0.0514
+[08/04/2023 16:38:52 INFO] Iter  200: loss 4.0415, precision 0.0006, recall 0.0556
+[08/04/2023 16:39:14 INFO] Iter  300: loss 3.7702, precision 0.0006, recall 0.0472
+/home/lee/SuperPoint-master/superpoint/models/base_model.py:387: RuntimeWarning: Mean of empty slice
+  metrics = {m: np.nanmean(metrics[m], axis=0) for m in metrics}
+[08/04/2023 16:39:16 INFO] Iter  400: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:17 INFO] Iter  500: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:19 INFO] Iter  600: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:21 INFO] Iter  700: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:22 INFO] Iter  800: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:24 INFO] Iter  900: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:25 INFO] Iter 1000: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:27 INFO] Iter 1100: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:28 INFO] Iter 1200: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:30 INFO] Iter 1300: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:32 INFO] Iter 1400: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:33 INFO] Iter 1500: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:34 INFO] Iter 1600: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:36 INFO] Iter 1700: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:38 INFO] Iter 1800: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:39 INFO] Iter 1900: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:41 INFO] Iter 2000: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:42 INFO] Iter 2100: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:44 INFO] Iter 2200: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:46 INFO] Iter 2300: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:48 INFO] Iter 2400: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:50 INFO] Iter 2500: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:51 INFO] Iter 2600: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:53 INFO] Iter 2700: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:55 INFO] Iter 2800: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:57 INFO] Iter 2900: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:39:59 INFO] Iter 3000: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:00 INFO] Iter 3100: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:02 INFO] Iter 3200: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:04 INFO] Iter 3300: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:06 INFO] Iter 3400: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:08 INFO] Iter 3500: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:09 INFO] Iter 3600: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:11 INFO] Iter 3700: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:12 INFO] Iter 3800: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:14 INFO] Iter 3900: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:15 INFO] Iter 4000: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:17 INFO] Iter 4100: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:19 INFO] Iter 4200: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:20 INFO] Iter 4300: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:22 INFO] Iter 4400: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:24 INFO] Iter 4500: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:25 INFO] Iter 4600: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:27 INFO] Iter 4700: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:28 INFO] Iter 4800: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:30 INFO] Iter 4900: loss nan, precision nan, recall 0.0000
+[08/04/2023 16:40:30 INFO] Training finished
+[08/04/2023 16:40:30 INFO] Saving checkpoint for iteration #5000
+2023-08-04 16:40:30.915148: W tensorflow/core/kernels/data/cache_dataset_ops.cc:770] The calling iterator did not fully read the dataset being cached. In order to avoid unexpected truncation of the dataset, the partially cached contents of the datasetwill be discarded. This can happen if you have an input pipeline similar to `dataset.cache().take(k).repeat()`. You should use `dataset.take(k).cache().repeat()` instead.
